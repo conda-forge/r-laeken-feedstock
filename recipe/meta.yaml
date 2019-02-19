@@ -1,4 +1,4 @@
-{% set version = '0.4.6' %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/laeken_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/laeken/laeken_{{ version }}.tar.gz
-  sha256: 465174263f2d495162bf1ee8ab35b362dae8088e458c162ce517813267d813e6
+  sha256: ea529f9e45a3825e1f13f8dbd8e7c5f5a42933525ca529230c893eb08e1f39bd
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
