@@ -3,7 +3,7 @@ About r-laeken
 
 Home: https://CRAN.R-project.org/package=laeken
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-laeken-feedstock/blob/master/LICENSE.txt)
 
