@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=laeken
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Estimation of indicators on social exclusion and poverty, as well as Pareto tail modeling for empirical income distributions.
   license_family: GPL2
   license_file:
