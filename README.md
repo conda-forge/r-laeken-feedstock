@@ -1,11 +1,11 @@
-About r-laeken
-==============
+About r-laeken-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-laeken-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=laeken
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-laeken-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimation of indicators on social exclusion and poverty, as well as Pareto tail modeling for empirical income distributions.
 
