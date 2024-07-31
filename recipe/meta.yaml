@@ -1,6 +1,5 @@
 {% set version = "0.5.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-laeken
@@ -13,8 +12,7 @@ source:
   sha256: 60495f494f2a41b2ca94e11e3d0224843b7282cf8b2a859dbf6077a3bc97e80b
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
